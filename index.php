@@ -44,5 +44,5 @@ $sql = "SELECT * FROM MyGuests";
 $stmt = $pdo->query($sql);
 while ($row = $stmt->fetch())
 {
-    echo $row['lastname'] . "<br/>";
+    echo $row['name'] . "<br/>";
 }
